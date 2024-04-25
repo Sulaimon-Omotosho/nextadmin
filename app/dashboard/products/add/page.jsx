@@ -19,10 +19,10 @@ const AddProductPage = () => {
         <textarea
           name='desc'
           id='desc'
-          cols='30'
-          rows='10'
+          rows='16'
           placeholder='Description'
         ></textarea>
+        <button type='submit'>Submit</button>
       </form>
     </div>
   )
